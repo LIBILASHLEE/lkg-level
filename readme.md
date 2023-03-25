@@ -84,4 +84,53 @@ footer {
 		<p>&copy; 2023 My Website. All rights reserved.</p>
 	</footer>
 </body>
+
+<head>
+<title>Login box</title>
+<style>
+.login-box{
+background-color:blue;
+color:white;
+width:200px;
+margin:0 auto;
+padding:20px;
+border:2px;
+}
+input[type="text"]
+input[type="password"]
+{
+width:100%;
+margin:0 auto;
+color:black;
+padding:20px;
+border-sizing:border-box;
+border:1px solid #ccc;
+border-radius:4px;
+border:2px;
+}
+input[type="submit"]
+{
+width:50%;
+margin:8px;
+color:black;
+padding:20px;
+border-sizing:border-box;
+border:1px solid #ccc;
+border-radius:2px;
+border:2px;
+}
+</style>
+</head>
+<body>
+<div class="login-box">
+<form>
+<label for="username">username</label>
+<input type="text" id="username" value="username"required>
+<label for="password">password</label>
+<input type="password" id="password" value="password"required>
+
+<input type="submit"  value="login">
+</form>
+</div>
+</body>
 </html>
